@@ -1,0 +1,180 @@
+
+
+
+/* header bottom */
+
+.logo {
+  padding-top: 27px;
+}
+
+
+/* main-menu start */
+
+.main-menu nav > ul > li {
+  display: inline-block;
+    position: relative;
+}
+
+.main-menu nav > ul > li > a {
+  color: #333;
+  display: block;
+  line-height: 35px;
+  padding: 25px 17px;
+  text-transform: uppercase;
+}
+.main-menu nav > ul > li:hover > a {
+  color: #666;
+}
+
+.dropdown {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 1px 2px rgba(86, 86, 90, 0.5);
+  padding: 20px 20px;
+  position: absolute;
+  text-align: left;
+  top: 120%;
+  transform-origin: 0 0 0;
+  transition: all 0.3s ease 0s;
+  width: 200px;
+  z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.main-menu nav > ul > li:hover .dropdown{
+  opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.main-menu nav > ul > li > ul > li {
+  display: block;
+}
+.main-menu nav > ul > li > ul > li > a {
+  color: #333;
+  display: block;
+  font-weight: normal;
+  padding: 7px 0;
+  text-transform: capitalize;
+}
+
+
+
+.main-menu nav > ul > li > ul > li > a:hover {
+  color: #666;
+    padding-left: 5px;
+}
+
+/* main-menu (mega manu) start */
+
+.main-menu nav > ul > li.mega-position {
+  position: inherit;
+}
+
+.mega-menu {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #ececec;
+  box-shadow: 0 1px 2px rgba(86, 86, 90, 0.5);
+  left: 0;
+  padding: 20px 30px;
+  position: absolute;
+  text-align: left;
+  top: 120%;
+  transform-origin: 0 0 0;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  z-index: 9;
+    opacity:0;
+    visibility: hidden;
+}
+.main-menu nav > ul > li:hover .mega-menu{
+  opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.mega-menu.mega-4-colm ul {
+  float: left;
+  width: 25%;
+}
+
+.mega-menu.mega-3-colm ul {
+  float: left;
+  width: 33.33%;
+}
+.mega-menu.mega-2-colm {
+  width: 350px;
+}
+.mega-menu.mega-2-colm ul {
+  float: left;
+  width: 50%;
+}
+
+.mega-menu ul li.menu-title {
+  font-weight: 500;
+  margin: 0 0 10px;
+  padding: 5px 0;
+  position: relative;
+    color: #333;
+}
+
+.mega-menu ul li.menu-title::after {
+  background: #333 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+}
+
+.mega-menu ul li {
+  display: block;
+}
+
+.mega-menu ul li a {
+  color: #333;
+  display: block;
+  font-weight: normal;
+  padding: 7px 0;
+    text-transform: capitalize;
+}
+.mega-menu ul li a:hover {
+  color: #666;
+    padding-left: 5px;
+}
+.menu-img > img {
+  width: 100%;
+}
+
+/* main-menu end */
+
+.mobile-menu-area {
+  display: none;
+}
+
+.header-bottom.sticky {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+    transition: all .5s ease 0s;
+}
+
+.sticky .main-menu nav > ul > li > a {
+  padding: 18px 17px;
+}
+.sticky .logo {
+  padding-top: 21px;
+}
+
+
+
+
+
+
+
